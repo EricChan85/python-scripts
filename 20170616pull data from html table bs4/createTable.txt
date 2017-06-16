@@ -1,0 +1,4 @@
+
+CREATE TABLE record (ticket INT NOT NULL, open_time DATETIME, type VARCHAR(20), size FLOAT, item VARCHAR(20), open_price FLOAT, stop_loss FLOAT, take_profit FLOAT, close_time DATETIME, close_price FLOAT, commission FLOAT, taxes FLOAT, swap FLOAT, profit FLOAT, magic_nbr INT, comment VARCHAR(200), PRIMARY KEY (ticket));
+
+INSERT INTO record VALUES (22977725,"2016.08.19 04:29:07","balance",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1001.07,,"Transfer 56560 > 106437")
